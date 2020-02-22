@@ -1,0 +1,329 @@
+2020-02-19 15:30:02,912 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-02-19 15:30:02,929 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.2/libexec/bin/user.properties
+2020-02-19 15:30:02,930 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.2/libexec/bin/system.properties
+2020-02-19 15:30:02,931 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-02-19 15:30:02,931 INFO o.a.j.JMeter: Version 5.2
+2020-02-19 15:30:02,931 INFO o.a.j.JMeter: java.version=1.8.0_211
+2020-02-19 15:30:02,931 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-02-19 15:30:02,931 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-02-19 15:30:02,931 INFO o.a.j.JMeter: os.arch=x86_64
+2020-02-19 15:30:02,931 INFO o.a.j.JMeter: os.version=10.14.6
+2020-02-19 15:30:02,931 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-02-19 15:30:02,931 INFO o.a.j.JMeter: java.awt.headless=null
+2020-02-19 15:30:02,931 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-02-19 15:30:02,931 INFO o.a.j.JMeter: Available Processors =12
+2020-02-19 15:30:02,934 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-02-19 15:30:02,934 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-02-19 15:30:02,934 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.2/libexec
+2020-02-19 15:30:02,934 INFO o.a.j.JMeter: user.dir  =/Users/harshit.gupta/go/src/welcome-app
+2020-02-19 15:30:02,934 INFO o.a.j.JMeter: PWD       =/Users/harshit.gupta/go/src/welcome-app
+2020-02-19 15:30:08,968 INFO o.a.j.JMeter: IP: 172.16.20.33 Name: Harshits-MacBook-Pro.local FullName: 172.16.20.33
+2020-02-19 15:30:10,405 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-02-19 15:30:10,418 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2020-02-19 15:30:10,419 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2020-02-19 15:30:10,478 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-02-19 15:30:11,645 INFO o.a.j.JMeter: Loading file: /Users/harshit.gupta/Downloads/log.postman_collection.jmx
+2020-02-19 15:30:11,648 INFO o.a.j.s.FileServer: Default base='/Users/harshit.gupta/go/src/welcome-app'
+2020-02-19 15:30:11,649 INFO o.a.j.s.FileServer: Set new base='/Users/harshit.gupta/Downloads'
+2020-02-19 15:30:11,777 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-02-19 15:30:11,784 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-02-19 15:30:11,786 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-02-19 15:30:11,788 INFO o.a.j.s.SaveService: Loading file: /Users/harshit.gupta/Downloads/log.postman_collection.jmx
+2020-02-19 15:30:11,817 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-02-19 15:30:11,817 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-02-19 15:30:11,817 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-02-19 15:30:11,817 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-02-19 15:30:11,817 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-02-19 15:30:11,817 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-02-19 15:30:11,823 ERROR o.a.j.JMeter: Failure loading test file
+java.lang.IllegalArgumentException: Problem loading XML from:'/Users/harshit.gupta/Downloads/log.postman_collection.jmx'. 
+Cause:
+EOFException: no more data available - expected end tags </stringProp></elementProp></collectionProp></elementProp></HTTPSamplerProxy></org.apache.jorphan.collections.HashTree></org.apache.jorphan.collections.HashTree></org.apache.jorphan.collections.HashTree></jmeterTestPlan> to close start tag <stringProp> from line 33 and start tag <elementProp> from line 30 and start tag <collectionProp> from line 29 and start tag <elementProp> from line 28 and start tag <HTTPSamplerProxy> from line 27 and start tag <org.apache.jorphan.collections.HashTree> from line 26 and start tag <org.apache.jorphan.collections.HashTree> from line 13 and start tag <org.apache.jorphan.collections.HashTree> from line 3 and start tag <jmeterTestPlan> from line 2, parser stopped on START_TAG seen ...<stringProp name="Argument.value">{&quot;lines&quot;: [&... @33:73
+
+ Detail:com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+first-jmeter-class  : org.apache.jmeter.save.converters.TestElementPropertyConverter.unmarshal(TestElementPropertyConverter.java:110)
+class               : org.apache.jmeter.save.ScriptWrapper
+required-type       : org.apache.jmeter.save.ScriptWrapper
+converter-type      : org.apache.jmeter.save.ScriptWrapperConverter
+path                : /jmeterTestPlan/org.apache.jorphan.collections.HashTree/org.apache.jorphan.collections.HashTree/org.apache.jorphan.collections.HashTree/HTTPSamplerProxy/elementProp/collectionProp/elementProp/stringProp[2]
+line number         : 33
+version             : 5.2
+-------------------------------
+	at org.apache.jmeter.save.SaveService.readTree(SaveService.java:459) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.save.SaveService.loadTree(SaveService.java:432) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.JMeter.startGui(JMeter.java:411) [ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.JMeter.start(JMeter.java:545) [ApacheJMeter_core.jar:5.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:253) [ApacheJMeter.jar:5.2]
+Caused by: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+first-jmeter-class  : org.apache.jmeter.save.converters.TestElementPropertyConverter.unmarshal(TestElementPropertyConverter.java:110)
+class               : org.apache.jmeter.save.ScriptWrapper
+required-type       : org.apache.jmeter.save.ScriptWrapper
+converter-type      : org.apache.jmeter.save.ScriptWrapperConverter
+path                : /jmeterTestPlan/org.apache.jorphan.collections.HashTree/org.apache.jorphan.collections.HashTree/org.apache.jorphan.collections.HashTree/HTTPSamplerProxy/elementProp/collectionProp/elementProp/stringProp[2]
+line number         : 33
+version             : 5.2
+-------------------------------
+	at org.apache.jmeter.save.ScriptWrapperConverter.createConversionException(ScriptWrapperConverter.java:102) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.save.ScriptWrapperConverter.unmarshal(ScriptWrapperConverter.java:96) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:134) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1487) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1467) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1338) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.SaveService.readTree(SaveService.java:449) ~[ApacheJMeter_core.jar:5.2]
+	... 8 more
+Caused by: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.io.StreamException
+cause-message       : 
+class               : org.apache.jmeter.testelement.property.StringProperty
+required-type       : org.apache.jmeter.testelement.property.StringProperty
+converter-type      : org.apache.jmeter.save.converters.StringPropertyConverter
+path                : /jmeterTestPlan/org.apache.jorphan.collections.HashTree/org.apache.jorphan.collections.HashTree/org.apache.jorphan.collections.HashTree/HTTPSamplerProxy/elementProp/collectionProp/elementProp/stringProp[2]
+line number         : 33
+class[1]            : org.apache.jmeter.testelement.property.TestElementProperty
+required-type[1]    : org.apache.jmeter.testelement.property.TestElementProperty
+converter-type[1]   : org.apache.jmeter.save.converters.TestElementPropertyConverter
+class[2]            : org.apache.jmeter.testelement.property.CollectionProperty
+required-type[2]    : org.apache.jmeter.testelement.property.CollectionProperty
+converter-type[2]   : org.apache.jmeter.save.converters.MultiPropertyConverter
+class[3]            : org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy
+required-type[3]    : org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy
+converter-type[3]   : org.apache.jmeter.protocol.http.sampler.HTTPSamplerBaseConverter
+class[4]            : org.apache.jorphan.collections.HashTree
+required-type[4]    : org.apache.jorphan.collections.HashTree
+converter-type[4]   : org.apache.jmeter.save.converters.HashTreeConverter
+-------------------------------
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:77) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.TestElementPropertyConverter.unmarshal(TestElementPropertyConverter.java:110) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.MultiPropertyConverter.unmarshal(MultiPropertyConverter.java:69) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.TestElementPropertyConverter.unmarshal(TestElementPropertyConverter.java:110) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.TestElementConverter.unmarshal(TestElementConverter.java:106) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBaseConverter.unmarshal(HTTPSamplerBaseConverter.java:61) ~[ApacheJMeter_http.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.ScriptWrapperConverter.unmarshal(ScriptWrapperConverter.java:94) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:134) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1487) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1467) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1338) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.SaveService.readTree(SaveService.java:449) ~[ApacheJMeter_core.jar:5.2]
+	... 8 more
+Caused by: com.thoughtworks.xstream.io.StreamException: 
+	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:126) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readRealEvent(AbstractPullReader.java:148) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readEvent(AbstractPullReader.java:135) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.getValue(AbstractPullReader.java:180) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.io.ReaderWrapper.getValue(ReaderWrapper.java:48) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.ConversionHelp.getPropertyValue(ConversionHelp.java:238) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.save.converters.StringPropertyConverter.unmarshal(StringPropertyConverter.java:62) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.TestElementPropertyConverter.unmarshal(TestElementPropertyConverter.java:110) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.MultiPropertyConverter.unmarshal(MultiPropertyConverter.java:69) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.TestElementPropertyConverter.unmarshal(TestElementPropertyConverter.java:110) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.TestElementConverter.unmarshal(TestElementConverter.java:106) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBaseConverter.unmarshal(HTTPSamplerBaseConverter.java:61) ~[ApacheJMeter_http.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.ScriptWrapperConverter.unmarshal(ScriptWrapperConverter.java:94) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:134) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1487) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1467) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1338) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.SaveService.readTree(SaveService.java:449) ~[ApacheJMeter_core.jar:5.2]
+	... 8 more
+Caused by: java.io.EOFException: no more data available - expected end tags </stringProp></elementProp></collectionProp></elementProp></HTTPSamplerProxy></org.apache.jorphan.collections.HashTree></org.apache.jorphan.collections.HashTree></org.apache.jorphan.collections.HashTree></jmeterTestPlan> to close start tag <stringProp> from line 33 and start tag <elementProp> from line 30 and start tag <collectionProp> from line 29 and start tag <elementProp> from line 28 and start tag <HTTPSamplerProxy> from line 27 and start tag <org.apache.jorphan.collections.HashTree> from line 26 and start tag <org.apache.jorphan.collections.HashTree> from line 13 and start tag <org.apache.jorphan.collections.HashTree> from line 3 and start tag <jmeterTestPlan> from line 2, parser stopped on START_TAG seen ...<stringProp name="Argument.value">{&quot;lines&quot;: [&... @33:73
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:3035) ~[xpp3_min-1.1.4c.jar:?]
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046) ~[xpp3_min-1.1.4c.jar:?]
+	at org.xmlpull.mxp1.MXParser.parseEntityRef(MXParser.java:2164) ~[xpp3_min-1.1.4c.jar:?]
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1275) ~[xpp3_min-1.1.4c.jar:?]
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093) ~[xpp3_min-1.1.4c.jar:?]
+	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:109) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readRealEvent(AbstractPullReader.java:148) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readEvent(AbstractPullReader.java:135) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.getValue(AbstractPullReader.java:180) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.io.ReaderWrapper.getValue(ReaderWrapper.java:48) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.ConversionHelp.getPropertyValue(ConversionHelp.java:238) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.save.converters.StringPropertyConverter.unmarshal(StringPropertyConverter.java:62) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.TestElementPropertyConverter.unmarshal(TestElementPropertyConverter.java:110) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.MultiPropertyConverter.unmarshal(MultiPropertyConverter.java:69) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.TestElementPropertyConverter.unmarshal(TestElementPropertyConverter.java:110) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.TestElementConverter.unmarshal(TestElementConverter.java:106) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBaseConverter.unmarshal(HTTPSamplerBaseConverter.java:61) ~[ApacheJMeter_http.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:132) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.ScriptWrapperConverter.unmarshal(ScriptWrapperConverter.java:94) ~[ApacheJMeter_core.jar:5.2]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:134) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1487) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1467) ~[xstream-1.4.11.jar:1.4.11]
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1338) ~[xstream-1.4.11.jar:1.4.11]
+	at org.apache.jmeter.save.SaveService.readTree(SaveService.java:449) ~[ApacheJMeter_core.jar:5.2]
+	... 8 more
